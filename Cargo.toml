@@ -1,0 +1,16 @@
+[package]
+name = "fst-subseq-ascii-caseless"
+description = """
+An automaton that matches if the input contains a specific subsequence
+ignoring ASCII case to be used with fst.
+"""
+version = "0.1.0"
+authors = ["Xidorn Quan <me@upsuper.org>"]
+license = "MIT"
+homepage = "https://github.com/upsuper/fst-subseq-ascii-caseless"
+repository = "https://github.com/upsuper/fst-subseq-ascii-caseless"
+readme = "README.md"
+keywords = ["fst", "search"]
+
+[dependencies]
+fst = "0.3"
